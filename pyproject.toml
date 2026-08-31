@@ -1,0 +1,14 @@
+[project]
+name = "sonic-forge"
+version = "0.1.0"
+description = "A local Gradio studio for Stable Audio 3."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "gradio>=5.0,<6.0",
+    "gradio-client>=1.4,<2.0",
+    "python-dotenv>=1.0,<2.0",
+]
+
+[tool.uv]
+package = false
